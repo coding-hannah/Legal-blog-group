@@ -1,42 +1,4 @@
-<!--
-  Code First Girls - Week 4
 
-  This exercise file gives you the basic HTML structure that you need
-  to get started with the exercises that will come up as we go through
-  the content.
-  
-  Don't worry if you get stuck, our instructors are walking around to help
-  and we will go through the answer as a group. 
-  
-  Below are the exercises to complete:
-  Exercise 4.1.1 - First, comment out your custom stylesheet for now to remove the flexbox styling. 
-                   Then, on your homepage add the container class in a div that wraps 
-                   both the header and main elements.
-  Exercise 4.1.2 - Create a row class in a div element that surrounds your paragraph and image as a whole, 
-                   now add two div elements that surround the paragraph and image content individually. 
-                   Now add the following classes to each:
-                   - col-xs-12 to ensure they are full width on mobiles
-                   - col-md-6 to ensure they are both 50% width on desktop
-
-  Exercise 4.2.1 - Change the buttons on your “My Top 5” and “Contact Me” forms to bootstrap buttons.   
-  Exercise 4.2.2 - Follow the bootstrap website for adding a Navbar component, and include your 
-                   three list elements inside of the nav component. This should replace what you 
-                   currently have in your nav element (notice how the Navbar component also includes the nav element)
-              
-  Exercise 4.3.1 - In place of your introduction image on your About Me page, add a carousel with a 
-                   couple of new images that scrolls automatically.
-
-  Exercise 4.4.1 - Follow the bootstrap website to change your forms on “My Top 5” and “Contact Me” by 
-                   adding the required classes and attributes. Ensure to keep the same fields as before, 
-                   we’ll need these next week.
-  
-  Exercise 4.5.1 - On your “Contact Me” page, add a Modal that is triggered when you click on the “Submit” button. 
-                   Again, use the bootstrap website. Add some text that confirms submission for now, we will come back 
-                   to this soon. Note: You may need to take the Submit button out of the form to do this.
-
-  Exercise 4.6.1 - Create a new css file, or uncomment and alter your current one to re-apply the colours, fonts, 
-                   font sizing and margins to make our website look less “bootstrappy”.
--->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -47,53 +9,68 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <!-- <link rel="stylesheet" type="text/css" href="./css/main.css"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
-  <title>Code First Girls Portfolio</title>
+
+  <title>Hannah's Legal Blog</title>
 </head>
 
 <body>
   <nav class="navigation">
     <ul>
-      <li id="active"><a href="./index.html">About Me</a></li>
-      <li><a href="./top-five.html">My Top 5</a></li>
-      <li><a href="./contact.html">Contact Me</a></li>
+      <li id="active"><a href="./index.html">Home</a></li>
+      <li><a href="./blog-posts.html">Blog</a></li>
+      <li><a href="./contact.html">Contact me</a></li>
     </ul>
   </nav>
 
   <header>
-    <h1>Code First Girls Portfolio</h1>
-    <h2 class="color-secondary" id="color-grey">Product Developer AND Generic Hobby</h2>
+    <h1>Hannah's Legal Blog</h1>
+    <h2>The irrelevant musings of a tired law student</h2>
   </header>
 
   <main>
+    <div>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/IMG_7135.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/IMG_0023.JPG" class="d-block w-100" alt="...">
+            </div>
+         
+          </div>
+        </div>
+  </div>
+</div>
 
-    <div class="introduction-paragraph">
+    <div>
       <p>
-        Hello! Welcome to my Portfolio. Here you will find some of my world changing
-        ideas and projects that make me a great web developer. By day I'm a Product
-        Developer and I love <i>Generic Hobby</i>. I'm 23 years old and hoping to
-        make a break into the industry. Below you will find my social links, and you
-        can <a href="./contact.html">contact</a> me at any time. Feel free to look at
-        my projects, and see my CV <a href="#">here</a>.
+        Hello mysterious stranger! My name is Hannah and I would like to welcome you to this- my first ever blog! I am currently in my final year of an undergraduate law degree (an LLB for the curious).
       </p>
     </div>
-    <div class="introduction-image">
-      <img src="./images/placeholder-profile.jpg" />
-    </div>
+
+    <h4>Things you might like to know about me </h4>
+    <p><ol class=listalign>
+        <li>I oscillate wildly between loving my degree and wanting to become a mongolian Yak farmer </li>
+        <li>I am probably one of three law students in the country who doesn't survive purely through coffee</li>
+        <li>I have two beautiful guinea pigs at home that will probably end up on here eventually</li>
+      </ol></p>
+
+   
   </main>
 
-  <footer class="footer">
-    <div class="footer-wrapper">
-        <div>
-            Copyright 2020 -
-            <a href="https://www.codefirstgirls.org.uk/" target="_blank">CFG</a>
-          </div>
-      
-          <div>
-            <span>Connect with me on <a href="https://www.linkedin.com/in/kristofer-box/ target=" _blank">LinkedIn</a></span>
-          </div>
-    </div>
+  <footer>
+   
+      <div> Copyright © Hannah Heilbuth 2020</div>
+<div> Find me on <a id=linkedin href="https://www.linkedin.com/in/hannah-heilbuth-b00a241b1/"> LinkedIn </a> </div>
+
+  
   </footer>
 
 </body>
