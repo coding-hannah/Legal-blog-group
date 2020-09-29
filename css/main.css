@@ -1,0 +1,187 @@
+/*
+  Elements
+*/
+
+html {
+  font-family: "Jost", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  padding: 1.5rem 0;
+}
+
+main {
+  margin: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+
+  margin: 0.75rem 1rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+
+  margin: 0.5rem 1rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+p {
+  font-size: 1rem;
+  padding: 0.25rem 0;
+}
+
+img {
+  padding: 0.25rem 0;
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: #f54996;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 2px solid #f54996;
+}
+
+/*
+  Classes
+*/
+
+.navigation {
+  background: black;
+  color: #fff;
+
+  /* Example here: https://www.w3schools.com/cssref/css3_pr_box-shadow.asp */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+  font-size: 1.2rem;
+
+  padding: 1rem;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation ul li {
+  display: inline;
+  padding-right: 0.5rem;
+}
+
+.navigation a {
+  color: #fff;
+}
+
+.navigation a:hover {
+  border: 0;
+  color: #f54996;
+}
+
+.footer {
+  background: #f54996;
+  color: #fff;
+  font-size: 1.2rem;
+
+  padding: 1rem;
+}
+
+.footer a {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.footer a:hover {
+  border-color: black;
+}
+
+.footer-wrapper div {
+  display: inline;
+  padding-right: 0.5rem;
+}
+
+.color-secondary {
+  color: #f54996;
+}
+
+.introduction-paragraph,
+.introduction-image {
+  width: 100%;
+}
+
+.project {
+  width: 100%;
+}
+
+.project-wrapper {
+  padding: 1rem;
+}
+
+/*
+  IDs
+*/
+#active a {
+  border-bottom: 2px solid #f54996;
+}
+
+/* 
+  Desktop Media Queries
+*/
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    max-width: 1300px;
+    margin: 1rem auto;
+  }
+
+  .navigation ul {
+    max-width: 1300px;
+    margin: auto;
+  }
+
+  .introduction-paragraph {
+    width: 50%;
+  }
+
+  .introduction-image {
+    width: 50%;
+  }
+
+  .introduction-image img {
+    margin: auto;
+  }
+
+  .footer-wrapper {
+    max-width: 1300px;
+    margin: 0.5rem auto;
+  }
+
+  .project {
+    max-width: 50%;
+  }
+}
