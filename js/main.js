@@ -21,8 +21,8 @@ Street: 'High Street',
 City: 'Northamton'
   }
 }
+console.log(person);
 
-person.address.Street
 
 
 
