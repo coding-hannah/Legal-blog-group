@@ -6,8 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
-
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather Sans' rel='stylesheet'>
+   
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
  <link rel="stylesheet" type="text/css" href="./css/main.css"> 
  
@@ -15,9 +18,9 @@
 </head>
 
 <body>
-  <nav class="navigation">
+  <nav class="primarybackground navbar">
     <ul>
-      <li><a href="./index.html">Home</a></li>
+      <li class=home><a href="./index.html">Home</a></li>
       <li id="active"><a href="./blog-posts.html">Blog</a></li>
       <li><a href="./contact.html">Contact Me</a></li>
     </ul>
@@ -29,67 +32,71 @@
   </header>
 
   <main>
-    <div class="project">
+ 
 
-      <div class="project-wrapper">
-        <h3>CFG Project Website</h3>
-        <img src="./images/placeholder-cfg.png" />
-        <p>I created this website with two teammates during CFG. It showcased everything we had learned and showed our
-          teamwork to get it looking great. We came first in the competition too!</p>
-        <p>See it live <a href="#">here</a>.</p>
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+  <!-- Blog entry -->
+
+       
+        
+
+  <div class="container">
+<div class="row">
+    <div class="col-sm-5"> <img src="./images/IMG_0846.JPG" style="width:90%"> </div>
+    <div class="col-sm-7">
+      <h3><b>Uni during a pandemic</b></h3>
+      <h5>I babble about the trying to not fail final year or sink into a pit of despair during the times of COVID-19. </h5>
+     <h6> <span> October 20th, 2020</span> </h6>
+  
+      <p>University isn't easy at the best of times, let alone when you're doing a law degree and especially not when it feels the world is on fire.</p>
+          <p><button type="button" class="btn btn-primary but"> <a href=./blog-20th-oct.html> Read more >> </a></button></p>
+        </div>
+ </div>
+
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-6"></div>
+    </div> -->
+
+
+  <hr>
+
+  <div class="row">
+  <div class="col-sm-5">
+  <img src=./images/IMG_1278.JPG style="width:90%"> </div>
+    <div class="col-sm-7">
+      <h3><b>Adventures on an Irish farm</b></h3>
+      <h5>A blog post in which Hannah made some <em>deer friends. </em> </h5> 
+      <h6> <span>October 21st, 2020</span></h6>
+
+      <p> This is my placeholder text
+       
+          <p><button type="button" class="btn btn-primary but"> <a href=./blog-10th-oct.html> Read more >> </a></button></p>
+      
+       
       </div>
     </div>
+ 
+<!-- END BLOG ENTRIES -->
+</div>
 
-    <div class="project">
-      <div class="project-wrapper">
-        <h3>My Portfolio</h3>
-        <img src="./images/placeholder-cfg.png" />
-        <p>This is where you are right now! I created this as I was learning the content in CFG, it really helped me
-          to see how everything fit in real use-cases, it was awesome!
-        </p>
-      </div>
-    </div>
 
-    <div class="project">
-      <div class="project-wrapper">
-        <h3>My Art Website</h3>
-        <img src="./images/placeholder-cfg.png" />
-        <p>Not long after finishing CFG, I took my love for Art and decided to create a visually pleasing website to
-          show my artwork. There's even options in there to buy my work to help support my future.
-        </p>
-        <p>Get inspired <a href="#">here</a>.</p>
-      </div>
-    </div>
 
-    <div class="project">
-      <div class="project-wrapper">
-        <h3>Add new</h3>
-        <form>
-          <input name="f_title" placeholder="Title" /> <br>
-          <input name="f_file" type="file" /> <br>
-          <textarea name="f_description" placeholder="Description..."></textarea> <br>
-          <input name="f_submit" type="submit" value="Add" />
-        </form>
-      </div>
-    </div>
   </main>
 
-  <footer class="footer">
-    <div class="footer-wrapper">
-      <div>
-        Copyright 2020 -
-        <a href="https://www.codefirstgirls.org.uk/" target="_blank">CFG</a>
-      </div>
 
-      <div>
-        <span>Connect with me on <a href="https://www.linkedin.com/in/kristofer-box/ target="
-            _blank">LinkedIn</a></span>
-      </div>
-    </div>
-  </footer>
+    <footer class="primarybackground">
+        <div> Copyright © Hannah Heilbuth 2020</div>
+        <div> Find me on <a id=linkedin href="https://www.linkedin.com/in/hannah-heilbuth-b00a241b1/"> Linkedin </a> </div>
+        
+        </footer>
 
-
-  <script src=./js/blog-posts.js>
+  <script src=./js/blog-posts.js> </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>

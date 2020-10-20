@@ -1,191 +1,173 @@
-/* /* 
-  Elements
-*/
 
-/* html {
-  font-family: "Jost", Arial, Helvetica, sans-serif;
-  font-size: 14px;
+
+Html {font-size: 16px;}
+
+body {background-color:rgb(173, 219, 255);
+  font-family: 'Rubik'; 
+  font-size:16px;
+  color:rgb(14, 76, 128);
 }
 
-body {
-  margin: 0;
+.thing{text-align:center;}
+
+h1 {color:rgb(5, 30, 51);
+  text-decoration:underline; 
+  font-size:2.06rem;
+  font-family:'Merriweather sans';
+margin:0.5rem;
+text-align:center;
+ }
+
+ h2{font-size:1.3rem;
+  color:rgb(17, 69, 112);
+  font-family:'Montserrat';
+  Margin:0.5rem;
+  text-align: center;
+font-weight:560;
 }
 
-header {
-  padding: 1.5rem 0;
+h3{color:rgb(17, 69, 112); 
+  font-family:'Montserrat';
+margin:0.5rem;
+font-weight:470;
 }
 
-main {
-  margin: 1rem;
+p{font-size:1rem;margin:0.5rem;
 }
 
-h1 {
-  font-size: 2rem;
-
-  margin: 0.75rem 1rem;
+a {color:whitesmoke;
+text-decoration: none; font-family:'montserrat'; font-size:0.97rem;
 }
 
-h2 {
-  font-size: 1.6rem;
+img {margin:0.5rem;}
 
-  margin: 0.5rem 1rem;
+
+div.test {display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;}
+
+
+ul{ list-style-type: none;
+  margin: 0px;
+  padding: 0px; 
 }
 
-h3 {
-  font-size: 1.4rem;
+
+#active {
+  background-color:rgb(7, 30, 48); 
 }
 
-p {
-  font-size: 1rem;
-  padding: 0.25rem 0;
+nav.navbar > ul > li {display:inline;
+  border-right: 0.17rem solid white;
+  font-size:1rem;
+padding:0.3rem;
+padding-left:0.3rem;
+
+}
+.home{border-left:0.17rem solid white}
+
+.navbar{display:flex;justify-content: center;}
+
+
+
+.primarybackground{background-color:rgb(10, 119, 173);
+  color:mistyrose; 
+  font-size:0.89rem;
+padding:0.3rem;
+padding-left:0;
+padding-right:0;
+overflow:hidden;
+
 }
 
-img {
-  padding: 0.25rem 0;
-  max-width: 100%;
-  display: block;
+.but {background-color:rgb(19, 164, 237);}
+
+
+#linkedin {font-family:'noto sans';
+  color:rgb(116, 189, 237);
+  font-size:0.89rem; }
+
+footer {position:static; font-family:'noto sans';
+padding:0.5rem; text-align:center;
 }
 
-a {
-  color: #f54996;
-  text-decoration: none;
+footer>div {display:block;}
+
+/**
+ * Contact page stuff. Rem the title 'Hannah' and then rem the pics and forms so it works on phones
+put linkedin far right
+ */
+#contact {text-decoration:none; }
+
+ /**
+ * top 5 page
+ */
+
+
+ol{text-align:center;}
+
+ 
+.fixlink {color:rgb(237, 78, 124); font-size:1rem;font-weight:800;}
+
+input[type=text] {width:100%; padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
-a:hover {
-  border-bottom: 2px solid #f54996;
-}
-
-/*
-  Classes
-*/
-
-/* .navigation {
-  background: black;
-  color: #fff;
-
-  /* Example here: https://www.w3schools.com/cssref/css3_pr_box-shadow.asp */
-  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-
-  font-size: 1.2rem;
-
-  padding: 1rem;
-}
-
-.navigation ul {
-  margin: 0;
-  padding: 0;
-}
-
-.navigation ul li {
-  display: inline;
-  padding-right: 0.5rem;
-}
-
-.navigation a {
-  color: #fff;
-}
-
-.navigation a:hover {
-  border: 0;
-  color: #f54996;
-}
-
-.footer {
-  background: #f54996;
-  color: #fff;
-  font-size: 1.2rem;
-
-  padding: 1rem;
-}
-
-.footer a {
-  color: #fff;
-  border-bottom: 2px solid #fff;
-}
-
-.footer a:hover {
-  border-color: black;
-}
-
-.footer-wrapper div {
-  display: inline;
-  padding-right: 0.5rem;
-}
-
-.color-secondary {
-  color: #f54996;
-}
-
-.introduction-paragraph,
-.introduction-image {
+.buttonstyle {
   width: 100%;
+  background-color:rgb(5, 53, 77);
+  color: mistyrose;
+  font-size:1rem;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
 }
 
-.project {
-  width: 100%;
+form {border-radius: 5px;
+  background-color:rgb(211, 245, 245);
+  padding: 15px;
+width:15rem;
+
+display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.project-wrapper {
-  padding: 1rem;
-} */
 
-/*
-  IDs
-*/
-/* #active a {
-  border-bottom: 2px solid #f54996;
-} */
 
-/* 
-  Desktop Media Queries
-*/
-/* @media only screen and (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+@media screen and (min-width: 768px) 
+{ body { background-color: lightblue;} 
+html{font-size:18px;}
+.navbar{padding-top:0.1rem;padding-left:0;display:flex;justify-content: left;}
+nav>ul {padding-top:0rem;}
+#active{padding-top:0.3rem;}
 
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.home{border-left: none}
 
-  main {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.test {display: flex-inline; flex-direction:row-reverse;}
+div.test > img {float:right; margin-left:0.4rem;}
 
-    max-width: 1300px;
-    margin: 1rem auto;
-  }
+a{font-size:1.2rem;}
+h1{font-size:2.4rem;}
+h2{font-size:1.8rem;}
+footer{text-align:left;}
+footer>div{display:inline;font-size:0.75rem;}
+footer.primarybackground{padding-left:0.5rem;}
+#linkedin{font-size:0.75rem;}
 
-  .navigation ul {
-    max-width: 1300px;
-    margin: auto;
-  }
-
-  .introduction-paragraph {
-    width: 50%;
-  }
-
-  .introduction-image {
-    width: 50%;
-  }
-
-  .introduction-image img {
-    margin: auto;
-  }
-
-  .footer-wrapper {
-    max-width: 1300px;
-    margin: 0.5rem auto;
-  }
-
-  .project {
-    max-width: 50%;
-  }
-} */ 
+#special {margin-top:13.5rem;}
+figure > img { margin-bottom: 0rem; display: block;
+  margin-left: auto;
+  margin-right: auto;}
 
 
 
 
+form{width:18rem;}
+}
