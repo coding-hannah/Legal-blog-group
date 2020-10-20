@@ -150,8 +150,6 @@ nav>ul {padding-top:0rem;}
 
 .home{border-left: none}
 
-.test {display: flex-inline; flex-direction:row-reverse;}
-div.test > img {float:right; margin-left:0.4rem;}
 
 a{font-size:1.2rem;}
 h1{font-size:2.4rem;}
@@ -162,9 +160,7 @@ footer.primarybackground{padding-left:0.5rem;}
 #linkedin{font-size:0.75rem;}
 
 #special {margin-top:13.5rem;}
-figure > img { margin-bottom: 0rem; display: block;
-  margin-left: auto;
-  margin-right: auto;}
+
 
 
 
