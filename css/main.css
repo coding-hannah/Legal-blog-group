@@ -25,17 +25,16 @@ text-align:center;
 font-weight:560;
 }
 
-h3{color:rgb(17, 69, 112); 
+h4{color:rgb(17, 69, 112); 
   font-family:'Montserrat';
-margin:0.5rem;
+margin:0.5rem;margin-left:0.8rem;
 font-weight:470;
-width:95%;
+width:90%;
 text-align:center;
+padding-right:0rem;
 }
 
-h4{margin-left:0.8rem;
-width:100%;
-padding-right:0.8rem;}
+
 
 
 
