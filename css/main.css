@@ -29,9 +29,16 @@ h3{color:rgb(17, 69, 112);
   font-family:'Montserrat';
 margin:0.5rem;
 font-weight:470;
+width:95%;
+text-align:center;
 }
 
-h4{margin-left:0.5rem;}
+h4{margin-left:0.8rem;
+width:100%;
+padding-right:0.8rem;}
+
+
+
 
 p{font-size:1rem;
 }
@@ -40,8 +47,8 @@ a {color:whitesmoke;
 text-decoration: none; font-family:'montserrat'; font-size:0.97rem;
 }
 
-a:hover { color:lightblue; text-decoration:none;
-  border-bottom: 2px solid lightblue;
+a:hover { color:lightblue; text-decoration:underline;
+
 }
 
 img {margin:0.5rem;}
@@ -63,22 +70,23 @@ ul{ list-style-type: none;
 
 #active {
   background-color:rgb(7, 30, 48); 
-border-left:1rem solid rgb (7, 30, 48);
+border-left:1rem solid rgb (white);
+
 }
 
 nav.navbar > ul > li {display:inline;
   border-right: 0.17rem solid white;
   font-size:1rem;
-padding:0.3rem;
+padding:0.1rem 0.3rem;
 }
 .home{border-left:0.17rem solid white}
 
 .navbar{display:flex;justify-content: center;}
-
+.clever{padding:0.1rem 0.3rem;}
 
 
 .primarybackground{background-color:rgb(10, 119, 173);
-  color:mistyrose; 
+  color:whitesmoke; 
   font-size:0.89rem;
 padding:0.3rem;
 padding-left:0;
@@ -97,6 +105,7 @@ overflow:hidden;
 footer {position:static; font-family:'noto sans';
 padding:0.5rem; text-align:center;
 }
+#foot{text-align:center;}
 
 footer>div {display:block;}
 
@@ -111,7 +120,7 @@ put linkedin far right
  */
 
 
-ol{text-align:center;}
+ol{text-align:center;padding-right:0.8rem;}
 
  
 .fixlink {color:rgb(237, 78, 124); font-size:1rem;font-weight:800;}
@@ -155,16 +164,17 @@ display: block;
 @media screen and (min-width: 768px) 
 { body { background-color: lightblue;} 
 html{font-size:18px;}
-.navbar{padding-top:0.1rem;padding-left:0;display:flex;justify-content: left;}
-nav>ul {padding-top:0rem;}
-#active{padding-top:0.3rem;}
+.navbar{display:flex;justify-content: left;}
+/* nav>ul {padding-top:0rem;}
+#active{padding-top:0.3rem;} */ 
 
-.home{border-left: none}
+
 
 
 a{font-size:1.2rem;}
 h1{font-size:2.4rem;}
 h2{font-size:1.8rem;}
+
 footer{text-align:left;}
 footer>div{display:inline;font-size:0.75rem;}
 footer.primarybackground{padding-left:0.5rem;}
