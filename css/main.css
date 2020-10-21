@@ -32,11 +32,15 @@ margin:0.5rem;
 font-weight:470;
 }
 
-p{font-size:1rem;margin:0.5rem;
+p{font-size:1rem;
 }
 
 a {color:whitesmoke;
 text-decoration: none; font-family:'montserrat'; font-size:0.97rem;
+}
+
+a:hover { color:lightblue; text-decoration:none;
+  border-bottom: 2px solid lightblue;
 }
 
 img {margin:0.5rem;}
