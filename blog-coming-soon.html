@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+ <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+
+
+  <title>Coming Soon! </title>
+</head>
+
+<body id="overlay">
+    <nav class="primarybackground navbar">
+        <ul class="nav">
+            <li class="nav-item home">
+              <a class="nav-link clever" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link clever" href="./blog-posts.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link clever" href="./contact.html">Contact me</a>
+            </li>   
+          </ul>
+        </nav>
+
+ <main> 
+   
+<div class="d-flex justify-content-center align-items-center" style="height:100px;text-align:center; margin-top:1rem; padding-top:1rem;">
+        <div>
+    <h1>Coming Soon!</h1>
+    <p> I'm planning to release this article on Christmas, so you'll just have to wait till it's ready I'm afraid! </p>
+  </div>    
+</div>
+<div class="d-flex justify-content-center align-items-center" style="height:100px;">
+    <div>
+        <p id="demo" style="font-size:30px"></p>
+   </div>    
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+  </main>
+
+
+  
+  <footer id="foot" class="primarybackground">
+        <div> Copyright © Hannah Heilbuth 2020</div>
+        <div> Find me on <a id=linkedin href="https://www.linkedin.com/in/hannah-heilbuth-b00a241b1/"> Linkedin </a> </div>
+        
+        </footer>
+
+        <script>
+            // Set the date we're counting down to
+            var countDownDate = new Date("Dec 25, 2020 00:01:25").getTime();
+            
+            // Update the count down every 1 second
+            var countdownfunction = setInterval(function() {
+            
+              // Get todays date and time
+              var now = new Date().getTime();
+              
+              // Find the distance between now an the count down date
+              var distance = countDownDate - now;
+              
+              // Time calculations for days, hours, minutes and seconds
+              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+              
+              // Output the result in an element with id="demo"
+              document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+              + minutes + "m " + seconds + "s ";
+              
+              // If the count down is over, write some text 
+              if (distance < 0) {
+                clearInterval(countdownfunction);
+                document.getElementById("demo").innerHTML = "Merry Christmas! Here's my post as a weird law christmas present";
+              }
+            }, 1000);
+            </script>
+    
+
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+       
+</body>
+
+</html> 

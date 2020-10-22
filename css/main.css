@@ -43,8 +43,12 @@ h6{background-color:rgba(173, 219, 255, 0.82);}
 
 
 
-
-
+.contain{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 p{font-size:1rem;
   background-color:rgba(173, 219, 255, 0.82);
@@ -113,8 +117,13 @@ overflow:hidden;
   font-size:0.89rem; }
 
 footer {position:static; font-family:'noto sans';
-padding:0.5rem; text-align:center;
+padding:0.5rem; text-align:center;  left: 0;
+bottom: 0;
+width: 100%;
 }
+
+
+
 #foot{text-align:center;}
 
 footer>div {display:block;}
