@@ -7,6 +7,9 @@ body {background-color:rgb(173, 219, 255);
   color:rgb(14, 76, 128);
 }
 
+#overlay { background-image: url("/images/flowers-4931217_1280.png");
+  }
+
 
 h1 {color:rgb(5, 30, 51);
   text-decoration:underline; 
@@ -23,6 +26,7 @@ text-align:center;
   text-align: center;
 font-weight:560;
 }
+h3{background-color:rgba(173, 219, 255, 0.68);}
 
 h4{color:rgb(17, 69, 112); 
   font-family:'Montserrat';
@@ -31,7 +35,11 @@ font-weight:470;
 width:90%;
 text-align:center;
 padding-right:0rem;
+background-color:rgba(173, 219, 255, 0.82);
+
 }
+h5{background-color:rgba(173, 219, 255, 0.68);}
+h6{background-color:rgba(173, 219, 255, 0.82);}
 
 
 
@@ -39,7 +47,10 @@ padding-right:0rem;
 
 
 p{font-size:1rem;
+  background-color:rgba(173, 219, 255, 0.82);
 }
+
+
 
 a {color:whitesmoke;
 text-decoration: none; font-family:'montserrat'; font-size:0.97rem;
@@ -65,6 +76,7 @@ ul{ list-style-type: none;
   padding: 0px; 
 }
 
+ol>li {background-color:rgba(173, 219, 255, 0.82);}
 
 #active {
   background-color:rgb(7, 30, 48); 
@@ -168,10 +180,15 @@ html{font-size:18px;}
 
 
 
-
+p{background-color:rgba(173, 216,230,0.82);}
 a{font-size:1.2rem;}
 h1{font-size:2.4rem;}
 h2{font-size:1.8rem;}
+h3{background-color:rgba(173, 216,230,0.68);}
+h4{background-color:rgba(173, 216,230,0.82);}
+h5{background-color:rgba(173, 216,230,0.68);}
+h6{background-color:rgba(173, 216,230,0.82);}
+ol>li {background-color:rgba(173, 216, 230, 0.82);}
 
 footer{text-align:left;}
 footer>div{display:inline;font-size:0.75rem;}
