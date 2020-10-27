@@ -14,14 +14,14 @@ body {background-color:rgb(173, 219, 255);
 h1 {color:rgb(5, 30, 51);
   text-decoration:underline; 
   font-size:2.06rem;
-  font-family:'Merriweather sans';
+  font-family:"Merriweather sans";
 margin:0.5rem;
 text-align:center;
  }
 
  h2{font-size:1.3rem;
   color:rgb(17, 69, 112);
-  font-family:'Montserrat';
+  font-family:"Montserrat";
   Margin:0.5rem;
   text-align: center;
 font-weight:560;
@@ -29,7 +29,7 @@ font-weight:560;
 h3{background-color:rgba(173, 219, 255, 0.68);}
 
 h4{color:rgb(17, 69, 112); 
-  font-family:'Montserrat';
+  font-family:"Montserrat";
 margin:0.5rem;margin-left:0.8rem;
 font-weight:470;
 width:90%;
@@ -57,7 +57,7 @@ p{font-size:1rem;
 
 
 a {color:whitesmoke;
-text-decoration: none; font-family:'montserrat'; font-size:0.97rem;
+text-decoration: none; font-family:"montserrat"; font-size:0.97rem;
 }
 
 a:hover { color:lightblue; text-decoration:underline;
@@ -112,11 +112,11 @@ overflow:hidden;
 .but {background-color:rgb(19, 164, 237);}
 
 
-#linkedin {font-family:'noto sans';
+#linkedin {font-family:"noto sans";
   color:rgb(116, 189, 237);
   font-size:0.89rem; }
 
-footer {position:static; font-family:'noto sans';
+footer {position:static; font-family:"noto sans";
 padding:0.5rem; text-align:center;  left: 0;
 bottom: 0;
 width: 100%;
@@ -128,10 +128,7 @@ width: 100%;
 
 footer>div {display:block;}
 
-/**
- * Contact page stuff. Rem the title 'Hannah' and then rem the pics and forms so it works on phones
-put linkedin far right
- */
+
 #contact {text-decoration:none; }
 
  /**
@@ -187,8 +184,6 @@ display: block;
 { body { background-color: lightblue;} 
 html{font-size:18px;}
 .navbar{display:flex;justify-content: left;}
-/* nav>ul {padding-top:0rem;}
-#active{padding-top:0.3rem;} */ 
 
 
 
@@ -208,9 +203,6 @@ footer.primarybackground{padding-left:0.5rem;}
 #linkedin{font-size:0.75rem;}
 
 #special {margin-top:13.5rem;}
-
-
-
 
 
 form{width:18rem;}
